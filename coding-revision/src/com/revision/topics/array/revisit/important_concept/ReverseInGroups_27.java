@@ -1,9 +1,29 @@
-package com.revision.topics.array.problems;
+package com.revision.topics.array.revisit.important_concept;
 
 // PL - https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/reverse-array-in-groups0255
 public class ReverseInGroups_27 {
 
-    //TODO - revisit in 3-5 days
+    /**
+     * Approach
+     * If k > arr.lngth reverse the entire array.
+     * If k == 1 ignore.
+     *  Else
+     *      * assign k value to the window variable.
+     *      * Get the actual len to reverse the array by taking the mod of arr length and k
+     *      * get groups by dividing array length by k
+     *      * initialise i to 0;
+     *      * run loop until group is greater 0
+     *          * inside loop
+     *              * reverse the array from ith position till k-1.
+     *              * after every reverse of array assign kth value to i.
+     *              * increment k to k + window size.
+     *              * decrement the group by 1
+ *              * In last check if len is greater than 0 outside the loop
+     *              * reverse the array from ith position till array length - 1.
+     * @param arr
+     * @param k
+     */
+    //TODO - REVISIT - 26 Oct 2025 - important concept
     public static void reverseInGroups(int[] arr, int k) {
         if (k >= arr.length) {
             reverse(arr, 0, arr.length-1);

@@ -1,4 +1,4 @@
-package com.revision.topics.array.problems;
+package com.revision.topics.array.revisit.important_concept;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import java.util.List;
 // PL - https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/print-pattern3549
 public class PrintPattern_24 {
 
-    //TODO - REVISIT in 3-5 days
+    //TODO - REVISIT - 26 Oct 2025 - important concept
     public static List<Integer> printPattern(int n) {
         List<Integer> result = new ArrayList<>();
         generatePattern(n, n, result);

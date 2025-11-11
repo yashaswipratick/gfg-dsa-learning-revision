@@ -1,8 +1,8 @@
-package com.revision.topics.array.problems;
+package com.revision.topics.array.revisit;
 
 public class RotateArray_30 {
 
-    //TODO - revisit in 3-5 days
+    //TODO - REVISIT - 26 Oct 2025
     static void rotateArr(int arr[], int d) {
 
         if (d % arr.length == 0) return;

@@ -1,10 +1,26 @@
-package com.revision.topics.array.problems;
+package com.revision.topics.array.revisit.important_concept;
 
 //PL - https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/maximum-index-1587115620
 //VL - watch the editorial of the problem
 public class MaximumIndex_25 {
 
-    //TODO - Revisit in 3-5 days
+    /**
+     * Initialise a right array to calaculate and store the maximum element at each index.
+     * Run a loop in reverse till 0 and store max(right[i+1], arr[i]) in right of i at each index.
+     * initialise i and j with 0.
+     * initialise maxDiff with Integer.MIN_VALUE.
+     * run the loop until i and j is less than length of array
+     * In every iteration
+     *      * if arr[i] is less than or equal to right[i]
+     *          * calculate maxDiff by taking max(maxDiff, j-i).
+     *          * increment j by 1.
+     *      * else
+     *          * increment i by 1.
+     * return the result stored in maxDiff.
+     * @param arr
+     * @return
+     */
+    //TODO - REVISIT - 26 Oct 2025 - important concept
     static int maxIndexDiff(int[] arr) {
         int[] right = new int[arr.length];
 

@@ -1,13 +1,28 @@
-package com.revision.topics.array.problems;
+package com.revision.topics.array.revisit;
 
 // PL - https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/check-if-array-is-sorted-and-rotated-clockwise-1587115620
+// VL - https://www.youtube.com/watch?v=9S96hJ9SoFI
 public class CheckIfArrayIsSortedAndRotated_26 {
 
-    // TODO - revisit in 3-5 days
+    /**
+     * First step to find if array is sorted in increasing order or decreasing order.
+     * if isSortedInc = true then return false because array is sorted but not rotated
+     * if isSortedInc = false then check
+     *      if arr current element is greater than array of currElement + 1 and store the count in breakInc variable
+     *      if breakInc == 1 that means array is sorted in increasing order and also rotated so return true.
+     * if isSortedDex = true then return false because array is sorted but not rotated
+     * if isSortedDex = false then check
+     *      if arr current element is greater than array of currElement + 1 and store the count in breakDec variable
+     *      if breakInc == 1 that means array is sorted in decreasing order and also rotated so return true.
+     * In last if both the condition does not means then return false
+     * @param arr
+     * @return
+     */
+    //TODO - REVISIT - 26 Oct 2025
     public static boolean isSortedRotated(int[] arr) {
         int n = arr.length;
-        boolean isSortedInc = false;
 
+        boolean isSortedInc = false;
         for (int i = 0; i < n-1; i++) {
             if (arr[i] < arr[i+1]) {
                 isSortedInc = true;
@@ -17,13 +32,13 @@ public class CheckIfArrayIsSortedAndRotated_26 {
             }
         }
 
-        if(isSortedInc) {
-             return false;
+        if (isSortedInc) {
+            return false;
         }
 
         int breakInc = 0;
         if (!isSortedInc) {
-            for (int i = 0; i < n - 1; i++) {
+            for (int i = 0; i < n-1; i++) {
                 if (arr[i] > arr[i+1]) {
                     breakInc++;
                 }
@@ -33,23 +48,23 @@ public class CheckIfArrayIsSortedAndRotated_26 {
             return true;
         }
 
-        boolean isSortedDex = false;
+        boolean isSortedDec = false;
 
         for (int i = 0; i < n-1; i++) {
             if (arr[i] > arr[i+1]) {
-                isSortedDex = true;
+                isSortedDec = true;
             } else {
-                isSortedDex= false;
+                isSortedDec = false;
                 break;
             }
         }
 
-        if(isSortedDex) {
+        if (isSortedDec) {
             return false;
         }
 
-        int breakDec= 0;
-        if (!isSortedDex) {
+        int breakDec = 0;
+        if (!isSortedDec) {
             for (int i = 0; i < n-1; i++) {
                 if (arr[i] < arr[i+1]) {
                     breakDec++;
