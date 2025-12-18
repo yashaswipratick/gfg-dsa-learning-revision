@@ -1,0 +1,5 @@
+1.  Array ya String ka question hoga
+2.  Subarray ya substring ki batein ho rhi hongi
+3.  Size de rakha hoga K.
+4. ya to window size puchi hogi Ya to window size de rakhi hogi ya to koi condition de rakhi hogi or window size puchi hogi
+4.  Ya to window size de rakhi hogi ya puchi hogi and agar window size puchi hogi to kuch condition de rakhi hogi
