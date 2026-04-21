@@ -1,58 +1,96 @@
 # Array Classes - Concept-wise Segregation
 
-This file groups array classes from `problems/` by revision concept.
+This file groups array classes from `problems/` by revision concept with direct problem links.
+
+---
 
 ## 1) Basics: Traversal, Validation, and In-place Cleanup
-- `problems/CheckIfArrayIsSorted_1.java`
-- `problems/ReverseAnArray_2.java`
-- `problems/RemoveDuplicatesFromSortedArray_3.java`
-- `problems/MoveZeroesToTheEnd_4.java`
-- `problems/MaxAndSecondMax_22.java`
-- `problems/MeanAndMedian_23.java`
+
+| File | Problem Link |
+|------|--------------|
+| `problems/CheckIfArrayIsSorted_1.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTYyMw%3D%3D) |
+| `problems/ReverseAnArray_2.java` | No link available |
+| `problems/RemoveDuplicatesFromSortedArray_3.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTQzMw%3D%3D) |
+| `problems/MoveZeroesToTheEnd_4.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTYwNA%3D%3D) |
+| `problems/MaxAndSecondMax_22.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/max-and-second-max) |
+| `problems/MeanAndMedian_23.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/mean-and-median-1587115620) |
+
+---
 
 ## 2) Rotation and Circular Array Patterns
-- `problems/LeftRotateArrayByOne_5.java`
-- `problems/LetRotateArrayByDPlaces_6.java`
-- `problems/RotateArray_30.java`
-- `problems/CheckIfArrayIsSortedAndRotated_26.java`
-- `problems/MinimumAdjacentDiffCircularArray_28.java`
+
+| File | Problem Link |
+|------|--------------|
+| `problems/LeftRotateArrayByOne_5.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTE2Mw%3D%3D) |
+| `problems/LetRotateArrayByDPlaces_6.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTE2Mw%3D%3D) |
+| `problems/RotateArray_30.java` | No link available |
+| `problems/CheckIfArrayIsSortedAndRotated_26.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/check-if-array-is-sorted-and-rotated-clockwise-1587115620) |
+| `problems/MinimumAdjacentDiffCircularArray_28.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/minimum-absloute-difference-between-adjacent-elements-in-a-circular-array-1587115620) |
+
+---
 
 ## 3) Prefix/Suffix Insight and Boundary Decisions
-- `problems/LeadersInAnArray_7.java`
-- `problems/ArrayLeaders_20.java`
-- `problems/MaximumDifferenceWithOrder_8.java`
-- `problems/EquilibriumPoint_17.java`
-- `problems/TrappingRainWater_11.java`
+
+| File | Problem Link |
+|------|--------------|
+| `problems/LeadersInAnArray_7.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTE2NA%3D%3D) |
+| `problems/ArrayLeaders_20.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/leaders-in-an-array-1587115620) |
+| `problems/MaximumDifferenceWithOrder_8.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTE2NQ%3D%3D) |
+| `problems/EquilibriumPoint_17.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/NzU4OA%3D%3D) |
+| `problems/TrappingRainWater_11.java` | [Problem](https://www.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1) |
+
+---
 
 ## 4) Subarray, Sliding Window, and Sequence Optimization
-- `problems/MaximumSumSubarray_12.java`
-- `problems/MaximumCircularSumSubarray_14.java`
-- `problems/SubArrayWithGivenSum_19.java`
-- `problems/LongestEventOddSubarray_13.java`
-- `problems/MaximumConsecutiveOnes_12.java`
-- `problems/MinimumConsecutiveFlips_16.java`
-- `problems/StockByAndSell_10.java`
+
+| File | Problem Link |
+|------|--------------|
+| `problems/MaximumSumSubarray_12.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTQwMg%3D%3D) |
+| `problems/MaximumCircularSumSubarray_14.java` | [Problem](https://www.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/1) |
+| `problems/SubArrayWithGivenSum_19.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTQ2NTk%3D) |
+| `problems/LongestEventOddSubarray_13.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTQwMw%3D%3D) |
+| `problems/MaximumConsecutiveOnes_12.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTU0MTY%3D) |
+| `problems/MinimumConsecutiveFlips_16.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTU4Ng%3D%3D) |
+| `problems/StockByAndSell_10.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTE2Nw%3D%3D) |
+
+---
 
 ## 5) Frequency, Counting, and Range Marking
-- `problems/FrequenciesInSortedArray_9.java`
-- `problems/FrequenciesInaLimitedArray_21.java`
-- `problems/MajorityElement_15.java`
-- `problems/MaximumAppearingElement_18.java`
-- `problems/important_concept/MaximumOccurredInteger_34.java`
+
+| File | Problem Link |
+|------|--------------|
+| `problems/FrequenciesInSortedArray_9.java` | [Problem](https://www.geeksforgeeks.org/problems/find-the-frequency/1) |
+| `problems/FrequenciesInaLimitedArray_21.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/frequency-of-array-elements-1587115620) |
+| `problems/MajorityElement_15.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTQyMg%3D%3D) |
+| `problems/MaximumAppearingElement_18.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/NzU4OQ%3D%3D) |
+| `problems/important_concept/MaximumOccurredInteger_34.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/NzU4OQ%3D%3D) |
+
+---
 
 ## 6) Rearrangement and Index-Constraint Problems
-- `problems/RearrangeArrayAlternatively_31.java`
-- `problems/WaveArray_33.java`
-- `problems/important_concept/RearrangeArray_29.java`
-- `problems/important_concept/ReverseInGroups_27.java`
-- `problems/important_concept/MaximumIndex_25.java`
-- `problems/SmallestPositiveMissingNumber_32.java`
+
+| File | Problem Link |
+|------|--------------|
+| `problems/RearrangeArrayAlternatively_31.java` | [Video](https://www.youtube.com/watch?v=kQrezgskpho) |
+| `problems/WaveArray_33.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/wave-array-1587115621) |
+| `problems/important_concept/RearrangeArray_29.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/rearrange-an-array-with-o1-extra-space3142) |
+| `problems/important_concept/ReverseInGroups_27.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/reverse-array-in-groups0255) |
+| `problems/important_concept/MaximumIndex_25.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/maximum-index-1587115620) |
+| `problems/SmallestPositiveMissingNumber_32.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/smallest-positive-missing-number-1587115621) |
+
+---
 
 ## 7) Misc / Hybrid (Array + Other Concepts)
-- `problems/FractionTrouble.java`
-- `problems/important_concept/PrintPattern_24.java`
+
+| File | Problem Link |
+|------|--------------|
+| `problems/FractionTrouble.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/fraction-trouble3803) |
+| `problems/important_concept/PrintPattern_24.java` | [Video](https://www.youtube.com/watch?v=p3k27y0W6mQ) |
+
+---
 
 ## Notes
 - `LeadersInAnArray_7.java` and `ArrayLeaders_20.java` are conceptually similar and can be revised together.
-- If you want, we can physically restructure files into subpackages by these concepts in a follow-up step.
+- Problem links are extracted directly from class files — click them to access the resources instantly without switching between files.
+- **Revision order suggestion**: 1 → 2 → 3 → 4 → 5 → 6 → 7.
 

@@ -1,0 +1,124 @@
+HOW TO IDENTIFY A GREEDY PROBLEM
+
+A problem is very likely Greedy if you see one or more of these signals 👇
+
+✅ Strong Greedy Signals
+
+Words like:
+
+maximum / minimum
+
+least removals
+
+earliest / latest
+
+non-overlapping
+
+closest / optimal
+
+You must make a local decision at each step
+
+You are asked to:
+
+Select maximum number of items
+
+Remove minimum number of items
+
+Cover a range with minimum intervals
+
+Input is intervals / ranges / events / time slots
+
+💡 Rule of thumb
+
+If choosing one item affects future choices, think Greedy
+
+
+🧩 GREEDY vs DP QUICK CHECK
+Question	Greedy	DP
+Do choices affect future?	✅	✅
+Can you undo decisions?	❌	✅
+Is there a clear sorting rule?	✅	❌
+Need all combinations?	❌	✅
+
+👉 If sorting + one pass works → Greedy
+👉 If try all possibilities → DP
+
+
+🟢 SORT BY END TIME (finish first)
+Use this when:
+
+You want to select maximum non-overlapping intervals
+
+You want to remove minimum overlapping intervals
+
+You want to finish early to allow more room
+
+Typical Problems
+
+Activity Selection
+
+Non-overlapping Intervals
+
+Minimum Arrows to Burst Balloons
+
+Schedule Course
+
+Why it works
+
+Finishing early leaves more space for future intervals
+
+Template
+Arrays.sort(intervals, (a, b) -> a[1] - b[1]);
+
+🟡 SORT BY START TIME
+Use this when:
+
+You need to merge intervals
+
+You need to compare adjacent intervals
+
+You’re building ranges
+
+Typical Problems
+
+Merge Intervals
+
+Insert Interval
+
+Interval Intersections
+
+Template
+
+Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+
+🏹 ACTIVITY SELECTION CORE IDEA
+Classic Greedy Logic
+
+Sort activities by end time
+
+Select first activity
+
+For each next activity:
+
+If start >= lastEnd → select it
+
+Else → skip
+
+Why Greedy works
+
+Local optimal choice (earliest finish) leads to global optimum
+
+
+🧪 INTERVIEW MENTAL CHECKLIST
+
+Before coding, ask yourself:
+
+Can I sort the input?
+
+Does one local decision simplify the rest?
+
+Is there a natural ordering (time, size, cost)?
+
+Can I solve in one pass after sorting?
+
+If YES → Greedy 🚀
