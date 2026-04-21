@@ -16,6 +16,7 @@ public class ArrayLeaders_20 {
             }
         }
         return list;
+
     }
 
     public static void main(String[] args) {
