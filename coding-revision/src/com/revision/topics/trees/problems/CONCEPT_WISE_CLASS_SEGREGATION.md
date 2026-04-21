@@ -16,7 +16,7 @@
 
 ---
 
-# [ ] T-1 · Basic DFS Traversals
+# T-1 · Basic DFS Traversals
 > Core recursive / iterative traversals — the building blocks for almost every other tree concept.
 > Order matters: Pre (Root→L→R), In (L→Root→R), Post (L→R→Root).
 
@@ -26,7 +26,7 @@
 
 ---
 
-# [ ] T-2 · BFS / Level Order Traversals
+# T-2 · BFS / Level Order Traversals
 > Process nodes level by level using a **Queue**. Foundation for all view and vertical problems.
 
 - [ ] `LevelOrderTraversal.java` - Binary Tree Level Order Traversal - [Problem](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)
@@ -34,7 +34,7 @@
 
 ---
 
-# [ ] T-3 · Tree Views  *(What is visible from a specific direction?)*
+# T-3 · Tree Views  *(What is visible from a specific direction?)*
 > All view problems are **BFS with a selection rule** — left-most, right-most, top-most, or bottom-most visible node at each vertical column or level.
 
 - [ ] `LeftViewOfBinaryTree.java` - Left View (first node of each BFS level) - [Problem](https://www.geeksforgeeks.org/problems/left-view-of-binary-tree/1)
@@ -44,7 +44,7 @@
 
 ---
 
-# [ ] T-4 · Vertical & Boundary Traversals  *(Coordinate-based ordering)*
+# T-4 · Vertical & Boundary Traversals  *(Coordinate-based ordering)*
 > Assign `(row, col)` coordinates to each node. Sort/group by column, then row.
 
 - [ ] `VerticalOrderTraversalOfBinaryTree.java` - Vertical Order Traversal - [Problem](https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1)
@@ -52,7 +52,7 @@
 
 ---
 
-# [ ] T-5 · Tree-level Properties  *(Height, Depth, Diameter, Balance)*
+# T-5 · Tree-level Properties  *(Height, Depth, Diameter, Balance)*
 > Computed bottom-up via **post-order DFS**. Return value from recursion carries the metric up the tree.
 
 - [ ] `LeetCode_104.java` - Maximum Depth of Binary Tree (Height) - [Problem](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
@@ -64,7 +64,7 @@
 
 ---
 
-# [ ] T-6 · Structural / Identity Checks  *(Comparing two trees)*
+# T-6 · Structural / Identity Checks  *(Comparing two trees)*
 > DFS on two trees simultaneously, checking structural and value equality at each node.
 
 - [ ] `LeetCode_100.java` - Same Tree - [Problem](https://leetcode.com/problems/same-tree/description/)
@@ -72,7 +72,7 @@
 
 ---
 
-# [ ] T-7 · Path Problems  *(Root-to-node, node-to-node, maximum sum paths)*
+# T-7 · Path Problems  *(Root-to-node, node-to-node, maximum sum paths)*
 > DFS that tracks the current path or propagates sub-results upward.
 
 - [ ] `RootToNodePath.java` - Root to Node Path - No link available
@@ -82,7 +82,7 @@
 
 ---
 
-# [ ] T-8 · Utility / Support Classes
+# T-8 · Utility / Support Classes
 > Shared data structures used across all tree problem files.
 
 - [ ] `Node.java` - Binary tree node definition (`int data`, `Node left`, `Node right`)

@@ -14,7 +14,7 @@ This file groups all binary search classes by core revision concept with direct 
 
 ---
 
-# [ ] BS-1 · Classic Binary Search on Sorted Array
+# BS-1 · Classic Binary Search on Sorted Array
 > Direct search for a target value or insert position in a sorted array.
 
 - [ ] `easy/Leetcode_704.java` - Binary Search - [Problem](https://leetcode.com/problems/binary-search/description/)
@@ -24,14 +24,14 @@ This file groups all binary search classes by core revision concept with direct 
 
 ---
 
-# [ ] BS-2 · Find First / Last Occurrence (Boundary Problems)
+# BS-2 · Find First / Last Occurrence (Boundary Problems)
 > Find the first position where a condition becomes true, or the last position where it's still true.
 
 - [ ] `medium/Leetcode_34.java` - Find First and Last Position of Element in Sorted Array - [Problem](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
 
 ---
 
-# [ ] BS-3 · Peak Element & Boundary Crossing
+# BS-3 · Peak Element & Boundary Crossing
 > Find a peak (or valley) — a point where the element is greater/less than its neighbors.
 
 - [ ] `medium/peak_element/Leetcode_162.java` - Find Peak Element - [Problem](https://leetcode.com/problems/find-peak-element/description)
@@ -41,7 +41,7 @@ This file groups all binary search classes by core revision concept with direct 
 
 ---
 
-# [ ] BS-4 · Rotated Sorted Array
+# BS-4 · Rotated Sorted Array
 > Array is sorted but rotated at some pivot. Find the pivot, search in a rotated array, or handle duplicates.
 
 - [ ] `medium/rotated_sorted_array/Leetcode_33.java` - Search in Rotated Sorted Array - [Problem](https://leetcode.com/problems/search-in-rotated-sorted-array/)
@@ -53,7 +53,7 @@ This file groups all binary search classes by core revision concept with direct 
 
 ---
 
-# [ ] BS-5 · 2D Matrix Search
+# BS-5 · 2D Matrix Search
 > Search in a 2D matrix that is sorted (row-wise / column-wise or both).
 
 - [ ] `medium/matrix/Leetcode_74.java` - Search a 2D Matrix (sorted row-wise and column-wise) - [Problem](https://leetcode.com/problems/search-a-2d-matrix/description)
@@ -61,21 +61,21 @@ This file groups all binary search classes by core revision concept with direct 
 
 ---
 
-# [ ] BS-6 · Single Element (XOR / Parity-based)
+# BS-6 · Single Element (XOR / Parity-based)
 > Find the single element or odd-occurrence element in a sorted array using parity observation.
 
 - [ ] `medium/revision_multiple_time/Leetcode_540.java` - Single Element in a Sorted Array - [Problem](https://leetcode.com/problems/single-element-in-a-sorted-array/description/)
 
 ---
 
-# [ ] BS-7 · Duplicate Element (Hare-Tortoise / Floyd Cycle)
+# BS-7 · Duplicate Element (Hare-Tortoise / Floyd Cycle)
 > Detect or find duplicate elements in an array (often with implicit linked-list interpretation).
 
 - [ ] `medium/hare_tortoise/Leetcode_287.java` - Find the Duplicate Number - No link available
 
 ---
 
-# [ ] BS-8 · Predicate-Based Binary Search (Optimize a Condition)
+# BS-8 · Predicate-Based Binary Search (Optimize a Condition)
 > Binary search on the answer space — find the minimum value where a condition is satisfied, or maximum before it fails.
 
 - [ ] `medium/koko_eating_banana_variation/Leetcode_875.java` - Koko Eating Bananas - [Problem](https://leetcode.com/problems/koko-eating-bananas/description)
@@ -84,14 +84,14 @@ This file groups all binary search classes by core revision concept with direct 
 
 ---
 
-# [ ] BS-9 · Interval Problems (Predicate-Based)
+# BS-9 · Interval Problems (Predicate-Based)
 > Find relationships between intervals (e.g., smallest interval containing a point, right interval for a start point).
 
 - [ ] `medium/interval/Leetcode_436.java` - Find Right Interval - [Problem](https://leetcode.com/problems/find-right-interval/description/)
 
 ---
 
-# [ ] BS-10 · Interactive Binary Search
+# BS-10 · Interactive Binary Search
 > Binary search guided by query responses (e.g., "is your guess higher/lower?").
 
 - [ ] `easy/interactive/Leetcode_278.java` - First Bad Version - [Problem](https://leetcode.com/problems/first-bad-version/)
@@ -99,7 +99,7 @@ This file groups all binary search classes by core revision concept with direct 
 
 ---
 
-# [ ] BS-11 · Design Problems with Binary Search
+# BS-11 · Design Problems with Binary Search
 > Data structure design with binary search as a core operation (e.g., time-based lookups).
 
 - [ ] `medium/design_based_problem/Leetcode_981.java` - Time Based Key-Value Store - [Problem](https://leetcode.com/problems/time-based-key-value-store/description/)
@@ -107,7 +107,7 @@ This file groups all binary search classes by core revision concept with direct 
 
 ---
 
-# [ ] BS-12 · Non-trivial Array Queries (Approximation & Threshold)
+# BS-12 · Non-trivial Array Queries (Approximation & Threshold)
 > Find missing numbers, closest values, or apply binary search on computed properties.
 
 - [ ] `easy/Leetcode_268.java` - Missing Number - [Problem](https://leetcode.com/problems/missing-number/)

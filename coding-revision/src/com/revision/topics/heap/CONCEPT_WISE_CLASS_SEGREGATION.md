@@ -5,7 +5,7 @@ Files span: root-level GFG problems, `code_story_with_MIK/medium/`, `practise/ea
 
 ---
 
-## [ ] 1) Kth Largest / Kth Smallest Element
+## 1) Kth Largest / Kth Smallest Element
 Use a min-heap of size K (for Kth largest) or max-heap (for Kth smallest). Classic heap-size trick.
 
 **Root / GFG**
@@ -25,7 +25,7 @@ Use a min-heap of size K (for Kth largest) or max-heap (for Kth smallest). Class
 
 ---
 
-## [ ] 2) Top K Frequent Elements / Sort by Frequency
+## 2) Top K Frequent Elements / Sort by Frequency
 Use a HashMap to count frequencies, then a heap of size K to extract top elements.
 
 **Root / GFG**
@@ -43,7 +43,7 @@ Use a HashMap to count frequencies, then a heap of size K to extract top element
 
 ---
 
-## [ ] 3) K Closest / Nearest Points
+## 3) K Closest / Nearest Points
 Use a max-heap of size K to keep the K nearest candidates by distance or value.
 
 **Root / GFG**
@@ -59,7 +59,7 @@ Use a max-heap of size K to keep the K nearest candidates by distance or value.
 
 ---
 
-## [ ] 4) Greedy Simulation with Heap (Operate on Max/Min Repeatedly)
+## 4) Greedy Simulation with Heap (Operate on Max/Min Repeatedly)
 Repeatedly pick the largest or smallest element, apply an operation, and push back.
 
 **Root / GFG**
@@ -86,7 +86,7 @@ Repeatedly pick the largest or smallest element, apply an operation, and push ba
 
 ---
 
-## [ ] 5) Two-Heap Pattern (Running Median / Balanced Partition)
+## 5) Two-Heap Pattern (Running Median / Balanced Partition)
 Maintain a max-heap for the lower half and a min-heap for the upper half to answer median queries in O(log n).
 
 **code_story_with_MIK/medium**
@@ -94,7 +94,7 @@ Maintain a max-heap for the lower half and a min-heap for the upper half to answ
 
 ---
 
-## [ ] 6) Nearly Sorted / External Sort via Heap
+## 6) Nearly Sorted / External Sort via Heap
 Use a fixed-size min-heap to sort an array where each element is at most K positions away from its sorted position.
 
 **Root / GFG**
@@ -102,7 +102,7 @@ Use a fixed-size min-heap to sort an array where each element is at most K posit
 
 ---
 
-## [ ] 7) Heap with Custom Comparator / Priority Problems
+## 7) Heap with Custom Comparator / Priority Problems
 Problems that require a custom Pair/comparator or a heap-based priority score that is non-trivial.
 
 **Root / GFG**
@@ -123,7 +123,7 @@ Problems that require a custom Pair/comparator or a heap-based priority score th
 
 ---
 
-## [ ] 8) Sliding Window + Heap
+## 8) Sliding Window + Heap
 Heap used over a fixed window — combine sliding-window concept with heap maintenance.
 
 **practise/easy**
@@ -134,7 +134,7 @@ Heap used over a fixed window — combine sliding-window concept with heap maint
 
 ---
 
-## [ ] 9) Heap + Hashing / Index Tracking
+## 9) Heap + Hashing / Index Tracking
 Problems where a heap is combined with a frequency map or index tracking.
 
 **Root / GFG**

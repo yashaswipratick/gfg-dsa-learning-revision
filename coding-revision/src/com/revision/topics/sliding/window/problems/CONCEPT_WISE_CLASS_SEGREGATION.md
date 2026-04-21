@@ -19,7 +19,7 @@
 
 ---
 
-## [ ] F-1 · Sum / Aggregate in a Fixed Window
+## F-1 · Sum / Aggregate in a Fixed Window
 > Maintain a running sum. On each slide: `sum += arr[right] - arr[right - K]`
 
 - [ ] `fixed_size_window/MaxSumSubArrayOfSizeK.java` - Maximum sum subarray of size K - [Problem](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1)
@@ -27,7 +27,7 @@
 
 ---
 
-## [ ] F-2 · Max / Min Element in Every Window
+## F-2 · Max / Min Element in Every Window
 > Use a **Monotonic Deque** to get max/min per window in O(1) → overall O(n).
 
 - [ ] `fixed_size_window/KSizedSubArrayMaximum.java` - Maximum element in every window of size K - [Problem](https://www.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k3101/1)
@@ -35,7 +35,7 @@
 
 ---
 
-## [ ] F-3 · Frequency / Anagram Count in a Fixed Window
+## F-3 · Frequency / Anagram Count in a Fixed Window
 > Maintain a character-frequency map. Slide and check map equality (or matched-char count) per window.
 
 - [ ] `fixed_size_window/CountOccurenceOfAnagram.java` - Count anagram occurrences of a pattern in a string - [Problem](https://www.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1)
@@ -45,7 +45,7 @@
 
 ---
 
-## [ ] F-4 · Fixed Window on Both Ends (Cards / Circular Inversion)
+## F-4 · Fixed Window on Both Ends (Cards / Circular Inversion)
 > Picking K elements from both ends = removing a **contiguous middle window of size (n-K)**. Invert the problem to a fixed window on the middle.
 
 - [ ] `variable_size_window/MaximumPointObtainedFromCard.java` - Max points from K cards picked from either end - [Video](https://youtu.be/pBWCOCS636U)
@@ -60,7 +60,7 @@
 
 ---
 
-## [ ] V-1 · Longest Subarray with Sum = K  *(Non-negative Integer Arrays)*
+## V-1 · Longest Subarray with Sum = K  *(Non-negative Integer Arrays)*
 > Expand right, shrink left when `sum > K`. For arrays with negatives → use Prefix Sum + HashMap instead.
 
 - [ ] `variable_size_window/LongestSubarrayWithSumK.java` - Longest subarray with sum exactly K - [Video](https://www.youtube.com/watch?v=cyu_nuW5utA&list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj&index=7)
@@ -68,7 +68,7 @@
 
 ---
 
-## [ ] V-2 · Longest Substring with At Most / Exactly K Distinct Characters
+## V-2 · Longest Substring with At Most / Exactly K Distinct Characters
 > Shrink condition: `map.size() > K`. Remove char from map when its count hits 0.
 
 - [ ] `variable_size_window/LongestSubstringWithKDistinctCharacter.java` - Longest substring with **at most** K distinct chars - [Problem](https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1)
@@ -79,7 +79,7 @@
 
 ---
 
-## [ ] V-3 · Longest Substring Without Repeating Characters  *(Zero duplicates)*
+## V-3 · Longest Substring Without Repeating Characters  *(Zero duplicates)*
 > Special case of V-2: shrink left the moment any character appears more than once.
 
 - [ ] `variable_size_window/LongestSubstringWithoutRepeatingCharacters.java` - Leetcode 3 - [Problem](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)
@@ -88,7 +88,7 @@
 
 ---
 
-## [ ] V-4 · Longest Valid Window After At Most K Replacements / Flips
+## V-4 · Longest Valid Window After At Most K Replacements / Flips
 > Window is valid while `(windowSize - maxFreqChar) ≤ K`. Never shrink below historical best size.
 
 - [ ] `variable_size_window/LongestRepeatingCharacterReplacement.java` - Leetcode 424 - at most K character replacements - [Problem](https://leetcode.com/problems/longest-repeating-character-replacement/submissions/1832651137/)
@@ -96,7 +96,7 @@
 
 ---
 
-## [ ] V-5 · Count Subarrays with Exactly K  *(Binary / Integer Arrays)*
+## V-5 · Count Subarrays with Exactly K  *(Binary / Integer Arrays)*
 > "Exactly K" is hard directly. Use the trick:
 > **`count(exactly K) = count(atMost K) − count(atMost K−1)`**
 
@@ -106,7 +106,7 @@
 
 ---
 
-## [ ] V-6 · Minimum Window / Smallest Subarray Satisfying a Condition
+## V-6 · Minimum Window / Smallest Subarray Satisfying a Condition
 > Expand right until condition is met → **aggressively shrink left** to minimise window → record answer → expand again.
 
 - [ ] `variable_size_window/MinimumWindowSubstring.java` - Leetcode 76 - Minimum window substring containing all chars of pattern - [Problem](https://leetcode.com/problems/minimum-window-substring/)

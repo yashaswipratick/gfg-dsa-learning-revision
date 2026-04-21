@@ -4,7 +4,7 @@ This file groups array classes from `problems/` by revision concept with direct 
 
 ---
 
-## [ ] 1) Basics: Traversal, Validation, and In-place Cleanup
+## 1) Basics: Traversal, Validation, and In-place Cleanup
 
 - [ ] `problems/CheckIfArrayIsSorted_1.java` - [Problem](https://www.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1)
 - [ ] `problems/ReverseAnArray_2.java` - No link available
@@ -15,7 +15,7 @@ This file groups array classes from `problems/` by revision concept with direct 
 
 ---
 
-## [ ] 2) Rotation and Circular Array Patterns
+## 2) Rotation and Circular Array Patterns
 
 - [ ] `problems/LeftRotateArrayByOne_5.java` - [Problem](https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1)
 - [ ] `problems/LetRotateArrayByDPlaces_6.java` - [Problem](https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1)
@@ -25,7 +25,7 @@ This file groups array classes from `problems/` by revision concept with direct 
 
 ---
 
-## [ ] 3) Prefix/Suffix Insight and Boundary Decisions
+## 3) Prefix/Suffix Insight and Boundary Decisions
 
 - [ ] `problems/LeadersInAnArray_7.java` - [Problem](https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1)
 - [ ] `problems/ArrayLeaders_20.java` - [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/leaders-in-an-array-1587115620)
@@ -35,7 +35,7 @@ This file groups array classes from `problems/` by revision concept with direct 
 
 ---
 
-## [ ] 4) Subarray, Sliding Window, and Sequence Optimization
+## 4) Subarray, Sliding Window, and Sequence Optimization
 
 - [ ] `problems/MaximumSumSubarray_12.java` - [Problem](https://leetcode.com/problems/maximum-subarray/description/)
 - [ ] `problems/MaximumCircularSumSubarray_14.java` - [Problem](https://www.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/1)
@@ -47,7 +47,7 @@ This file groups array classes from `problems/` by revision concept with direct 
 
 ---
 
-## [ ] 5) Frequency, Counting, and Range Marking
+## 5) Frequency, Counting, and Range Marking
 
 - [ ] `problems/FrequenciesInSortedArray_9.java` - [Problem](https://www.geeksforgeeks.org/problems/find-the-frequency/1)
 - [ ] `problems/FrequenciesInaLimitedArray_21.java` - [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/frequency-of-array-elements-1587115620)
@@ -57,7 +57,7 @@ This file groups array classes from `problems/` by revision concept with direct 
 
 ---
 
-## [ ] 6) Rearrangement and Index-Constraint Problems
+## 6) Rearrangement and Index-Constraint Problems
 
 - [ ] `problems/RearrangeArrayAlternatively_31.java` - [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/-rearrange-array-alternately-1587115620)
 - [ ] `problems/WaveArray_33.java` - [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/wave-array-1587115621)
@@ -68,7 +68,7 @@ This file groups array classes from `problems/` by revision concept with direct 
 
 ---
 
-## [ ] 7) Misc / Hybrid (Array + Other Concepts)
+## 7) Misc / Hybrid (Array + Other Concepts)
 
 - [ ] `problems/FractionTrouble.java` - [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/fraction-trouble3803)
 - [ ] `problems/important_concept/PrintPattern_24.java` - [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/print-pattern3549)

@@ -4,7 +4,7 @@ This file groups all hashing classes under `hashing/gfg/` by core revision conce
 
 ---
 
-## [ ] 1) Basics: Frequency, Count, and Lookup (Easy)
+## 1) Basics: Frequency, Count, and Lookup (Easy)
 Foundational use of HashMap/HashSet for counting and existence checks.
 
 - [ ] `easy/FrequencyOfElement.java`
@@ -15,7 +15,7 @@ Foundational use of HashMap/HashSet for counting and existence checks.
 
 ---
 
-## [ ] 2) Set Operations: Union, Intersection, and Pair Problems (Easy)
+## 2) Set Operations: Union, Intersection, and Pair Problems (Easy)
 Using HashSet for fast lookups on two collections or pair-target problems.
 
 - [ ] `easy/IntersectionOfTwoArrays.java`
@@ -26,7 +26,7 @@ Using HashSet for fast lookups on two collections or pair-target problems.
 
 ---
 
-## [ ] 3) Prefix Sum + Hashing (Medium)
+## 3) Prefix Sum + Hashing (Medium)
 Subarray problems solved using prefix sums stored in a HashMap to find ranges in O(n).
 
 - [ ] `medium/prefixSumAndHashing/SubArrayWithZeroSum.java`
@@ -42,7 +42,7 @@ Subarray problems solved using prefix sums stored in a HashMap to find ranges in
 
 ---
 
-## [ ] 4) Sliding Window + Hashing (Medium)
+## 4) Sliding Window + Hashing (Medium)
 Fixed/variable window over a stream; use a HashMap to track window state.
 
 - [ ] `medium/slidinWindowWithHashing/CountDistinctElementInEveryWindow.java`
@@ -50,7 +50,7 @@ Fixed/variable window over a stream; use a HashMap to track window state.
 
 ---
 
-## [ ] 5) N/K Majority (Frequency Threshold) + Moore's Voting Algorithm (Medium)
+## 5) N/K Majority (Frequency Threshold) + Moore's Voting Algorithm (Medium)
 Find elements appearing more than ⌊n/k⌋ times — pure HashMap approach vs optimised Boyer-Moore.
 
 - [ ] `medium/nbykOccurence/MoreThanNByKOccurrences.java`
@@ -59,7 +59,7 @@ Find elements appearing more than ⌊n/k⌋ times — pure HashMap approach vs o
 
 ---
 
-## [ ] 6) Sorting with Hashing (Medium)
+## 6) Sorting with Hashing (Medium)
 Use a frequency map / index map as the basis for a custom sort order.
 
 - [ ] `medium/practice/SortAccordingToArray.java`
@@ -67,7 +67,7 @@ Use a frequency map / index map as the basis for a custom sort order.
 
 ---
 
-## [ ] 7) Consecutive Subsequence / Sequence Detection (Medium)
+## 7) Consecutive Subsequence / Sequence Detection (Medium)
 Use a HashSet to find the longest run of consecutive numbers in O(n).
 
 - [ ] `medium/subsequence/LongestConsecutiveSubsequence.java`
