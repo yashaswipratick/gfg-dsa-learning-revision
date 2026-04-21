@@ -8,12 +8,12 @@ public class LeadersInAnArray_7 {
 
     static ArrayList<Integer> leaders(int arr[]) {
         ArrayList<Integer> list = new ArrayList<>();
-        int max = arr[arr.length - 1];
-        list.add(arr[arr.length - 1]);
+        int max = arr[arr.length-1];
+        list.add(max);
         for (int i = arr.length - 2; i >= 0; i--) {
             if (arr[i] >= max) {
-                max = Math.max(max, arr[i]);
                 list.add(0, arr[i]);
+                max = Math.max(arr[i], max);
             }
         }
         return list;

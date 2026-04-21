@@ -8,7 +8,7 @@ public class LetRotateArrayByDPlaces_6 {
         while (d > arr.length) {
             d = d - arr.length;
         }
-        reverse(arr, 0, d-1);
+        reverse(arr, 0, d - 1);
         reverse(arr, d, arr.length - 1);
         reverse(arr, 0, arr.length - 1);
         print(arr);
@@ -32,8 +32,8 @@ public class LetRotateArrayByDPlaces_6 {
     }
 
     public static void main(String[] args) {
-        /*rotateArr(new int[]{1, 2, 3, 4, 5}, 2);
-        rotateArr(new int[]{2, 4, 6, 8, 10, 12, 14, 16, 18, 20}, 3);*/
+        rotateArr(new int[]{1, 2, 3, 4, 5}, 2);
+        rotateArr(new int[]{2, 4, 6, 8, 10, 12, 14, 16, 18, 20}, 3);
         rotateArr(new int[]{7, 3, 9, 1}, 9);
     }
 }

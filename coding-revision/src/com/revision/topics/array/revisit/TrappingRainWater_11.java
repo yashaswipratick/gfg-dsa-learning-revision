@@ -21,17 +21,17 @@ public class TrappingRainWater_11 {
         int res = 0;
 
         lMax[0] = arr[0];
-        for (int i = 1; i < arr.length; i++) { // i starts with 1 as 0th index element is already stored
-            lMax[i] = Math.max(arr[i], lMax[i-1]);
+        for (int i = 1; i < arr.length; i++) {
+            lMax[i] = Math.max(lMax[i-1], arr[i]);
         }
 
-        rMax[arr.length - 1] = arr[arr.length - 1];
+        rMax[arr.length-1] = arr[arr.length-1];
         for (int i = arr.length - 2; i >= 0; i--) {
-            rMax[i] = Math.max(arr[i], rMax[i+1]);
+            rMax[i] = Math.max(rMax[i+1], arr[i]);
         }
 
         for (int i = 0; i < arr.length; i++) {
-            res = res + (Math.min(lMax[i], rMax[i]) - arr[i]);
+            res += (Math.min(lMax[i], rMax[i]) - arr[i]);
         }
         return res;
     }

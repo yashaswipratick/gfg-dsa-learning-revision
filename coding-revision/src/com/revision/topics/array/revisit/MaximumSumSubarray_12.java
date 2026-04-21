@@ -60,5 +60,6 @@ public class MaximumSumSubarray_12 {
     }
     public static void main(String[] args) {
         System.out.println(maxSubarraySum(new int[]{2, 3, -8, 7, -1, 2, 3}));
+        System.out.println(maxSubarraySum(new int[]{-2,1,-3,4,-1,2,1,-5,4}));
     }
 }

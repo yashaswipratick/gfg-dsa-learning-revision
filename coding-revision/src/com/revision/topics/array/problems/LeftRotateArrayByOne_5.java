@@ -2,7 +2,7 @@ package com.revision.topics.array.problems;
 
 //VL - https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTE2Mw%3D%3D
 //PL - https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1
-public class LetRotateArrayByOne_5 {
+public class LeftRotateArrayByOne_5 {
 
     public static void rotate(int[] arr) {
         for (int i = arr.length - 1; i > 0; i--) {
