@@ -8,10 +8,10 @@ This file groups array classes from `problems/` by revision concept with direct 
 
 | File | Problem Link |
 |------|--------------|
-| `problems/CheckIfArrayIsSorted_1.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTYyMw%3D%3D) |
+| `problems/CheckIfArrayIsSorted_1.java` | [Problem](https://www.geeksforgeeks.org/problems/check-if-an-array-is-sorted0701/1) |
 | `problems/ReverseAnArray_2.java` | No link available |
-| `problems/RemoveDuplicatesFromSortedArray_3.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTQzMw%3D%3D) |
-| `problems/MoveZeroesToTheEnd_4.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTYwNA%3D%3D) |
+| `problems/RemoveDuplicatesFromSortedArray_3.java` | [Problem](https://www.geeksforgeeks.org/problems/remove-duplicate-elements-from-sorted-array/1) |
+| `problems/MoveZeroesToTheEnd_4.java` | [Problem](https://www.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1) |
 | `problems/MaxAndSecondMax_22.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/max-and-second-max) |
 | `problems/MeanAndMedian_23.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/mean-and-median-1587115620) |
 
@@ -21,8 +21,8 @@ This file groups array classes from `problems/` by revision concept with direct 
 
 | File | Problem Link |
 |------|--------------|
-| `problems/LeftRotateArrayByOne_5.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTE2Mw%3D%3D) |
-| `problems/LetRotateArrayByDPlaces_6.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTE2Mw%3D%3D) |
+| `problems/LeftRotateArrayByOne_5.java` | [Problem](https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1) |
+| `problems/LetRotateArrayByDPlaces_6.java` | [Problem](https://www.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1) |
 | `problems/RotateArray_30.java` | No link available |
 | `problems/CheckIfArrayIsSortedAndRotated_26.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/check-if-array-is-sorted-and-rotated-clockwise-1587115620) |
 | `problems/MinimumAdjacentDiffCircularArray_28.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/minimum-absloute-difference-between-adjacent-elements-in-a-circular-array-1587115620) |
@@ -33,10 +33,10 @@ This file groups array classes from `problems/` by revision concept with direct 
 
 | File | Problem Link |
 |------|--------------|
-| `problems/LeadersInAnArray_7.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTE2NA%3D%3D) |
+| `problems/LeadersInAnArray_7.java` | [Problem](https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1) |
 | `problems/ArrayLeaders_20.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/leaders-in-an-array-1587115620) |
 | `problems/MaximumDifferenceWithOrder_8.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTE2NQ%3D%3D) |
-| `problems/EquilibriumPoint_17.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/NzU4OA%3D%3D) |
+| `problems/EquilibriumPoint_17.java` | [Problem](https://leetcode.com/problems/find-pivot-index/) |
 | `problems/TrappingRainWater_11.java` | [Problem](https://www.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1) |
 
 ---
@@ -45,13 +45,13 @@ This file groups array classes from `problems/` by revision concept with direct 
 
 | File | Problem Link |
 |------|--------------|
-| `problems/MaximumSumSubarray_12.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTQwMg%3D%3D) |
+| `problems/MaximumSumSubarray_12.java` | [Problem](https://leetcode.com/problems/maximum-subarray/description/) |
 | `problems/MaximumCircularSumSubarray_14.java` | [Problem](https://www.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/1) |
 | `problems/SubArrayWithGivenSum_19.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTQ2NTk%3D) |
-| `problems/LongestEventOddSubarray_13.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTQwMw%3D%3D) |
-| `problems/MaximumConsecutiveOnes_12.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTU0MTY%3D) |
+| `problems/LongestEventOddSubarray_13.java` | [Problem](https://www.geeksforgeeks.org/dsa/length-of-the-longest-alternating-even-odd-subarray/) |
+| `problems/MaximumConsecutiveOnes_12.java` | [Problem](https://leetcode.com/problems/max-consecutive-ones/description/) |
 | `problems/MinimumConsecutiveFlips_16.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTU4Ng%3D%3D) |
-| `problems/StockByAndSell_10.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTE2Nw%3D%3D) |
+| `problems/StockByAndSell_10.java` | [Problem](https://www.geeksforgeeks.org/problems/stock-buy-and-sell-1587115621/1) |
 
 ---
 
@@ -61,9 +61,9 @@ This file groups array classes from `problems/` by revision concept with direct 
 |------|--------------|
 | `problems/FrequenciesInSortedArray_9.java` | [Problem](https://www.geeksforgeeks.org/problems/find-the-frequency/1) |
 | `problems/FrequenciesInaLimitedArray_21.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/frequency-of-array-elements-1587115620) |
-| `problems/MajorityElement_15.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTQyMg%3D%3D) |
-| `problems/MaximumAppearingElement_18.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/NzU4OQ%3D%3D) |
-| `problems/important_concept/MaximumOccurredInteger_34.java` | [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/NzU4OQ%3D%3D) |
+| `problems/MajorityElement_15.java` | [Problem](https://www.geeksforgeeks.org/problems/majority-element-1587115620/1) |
+| `problems/MaximumAppearingElement_18.java` | [Problem](https://www.geeksforgeeks.org/problems/maximum-occured-integer4602/1) |
+| `problems/important_concept/MaximumOccurredInteger_34.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/maximum-occured-integer4602) |
 
 ---
 
@@ -71,7 +71,7 @@ This file groups array classes from `problems/` by revision concept with direct 
 
 | File | Problem Link |
 |------|--------------|
-| `problems/RearrangeArrayAlternatively_31.java` | [Video](https://www.youtube.com/watch?v=kQrezgskpho) |
+| `problems/RearrangeArrayAlternatively_31.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/-rearrange-array-alternately-1587115620) |
 | `problems/WaveArray_33.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/wave-array-1587115621) |
 | `problems/important_concept/RearrangeArray_29.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/rearrange-an-array-with-o1-extra-space3142) |
 | `problems/important_concept/ReverseInGroups_27.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/reverse-array-in-groups0255) |
@@ -85,7 +85,7 @@ This file groups array classes from `problems/` by revision concept with direct 
 | File | Problem Link |
 |------|--------------|
 | `problems/FractionTrouble.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/fraction-trouble3803) |
-| `problems/important_concept/PrintPattern_24.java` | [Video](https://www.youtube.com/watch?v=p3k27y0W6mQ) |
+| `problems/important_concept/PrintPattern_24.java` | [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/print-pattern3549) |
 
 ---
 
