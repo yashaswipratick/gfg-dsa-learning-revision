@@ -1,4 +1,4 @@
-package com.revision.topics.array.revisit;
+package com.revision.topics.array.problems;
 
 // PL - https://www.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/1
 // VL - https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTQ2NDU%3D

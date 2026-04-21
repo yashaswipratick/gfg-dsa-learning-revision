@@ -1,4 +1,4 @@
-package com.revision.topics.array.revisit;
+package com.revision.topics.array.problems;
 
 // PL - https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/wave-array-1587115621
 public class WaveArray_33 {

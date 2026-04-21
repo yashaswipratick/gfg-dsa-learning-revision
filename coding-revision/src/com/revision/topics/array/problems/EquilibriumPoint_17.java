@@ -1,4 +1,4 @@
-package com.revision.topics.array.revisit;
+package com.revision.topics.array.problems;
 
 // VL - https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/NzU4OA%3D%3D
 // PL - https://www.geeksforgeeks.org/problems/equilibrium-point-1587115620/1

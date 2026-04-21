@@ -1,4 +1,4 @@
-package com.revision.topics.array.revisit;
+package com.revision.topics.array.problems;
 
 //VL - https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTU0MTY%3D
 //PL - https://leetcode.com/problems/max-consecutive-ones/description/

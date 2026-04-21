@@ -1,4 +1,4 @@
-package com.revision.topics.array.revisit.important_concept;
+package com.revision.topics.array.problems.important_concept;
 
 // PL - https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/rearrange-an-array-with-o1-extra-space3142
 // VL - https://www.youtube.com/watch?v=h4aBagy4Uok

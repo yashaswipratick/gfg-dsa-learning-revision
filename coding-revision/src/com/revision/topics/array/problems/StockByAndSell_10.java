@@ -1,4 +1,4 @@
-package com.revision.topics.array.revisit;
+package com.revision.topics.array.problems;
 
 //VL - https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTE2Nw%3D%3D
 //PL - https://www.geeksforgeeks.org/problems/stock-buy-and-sell-1587115621/1

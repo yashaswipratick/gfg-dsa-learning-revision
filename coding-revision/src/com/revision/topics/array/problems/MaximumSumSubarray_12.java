@@ -1,4 +1,4 @@
-package com.revision.topics.array.revisit;
+package com.revision.topics.array.problems;
 
 // VL - https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTQwMg%3D%3D
 // Article  - https://www.geeksforgeeks.org/dsa/largest-sum-contiguous-subarray/

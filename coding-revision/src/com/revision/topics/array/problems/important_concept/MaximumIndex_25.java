@@ -1,4 +1,4 @@
-package com.revision.topics.array.revisit.important_concept;
+package com.revision.topics.array.problems.important_concept;
 
 //PL - https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/maximum-index-1587115620
 //VL - watch the editorial of the problem

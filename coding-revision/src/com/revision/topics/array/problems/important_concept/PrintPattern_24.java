@@ -1,4 +1,4 @@
-package com.revision.topics.array.revisit.important_concept;
+package com.revision.topics.array.problems.important_concept;
 
 import java.util.ArrayList;
 import java.util.List;
