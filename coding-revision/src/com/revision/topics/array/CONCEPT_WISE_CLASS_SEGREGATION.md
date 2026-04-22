@@ -28,10 +28,9 @@ This file groups array classes from `problems/` by revision concept with direct 
 ## 3) Prefix/Suffix Insight and Boundary Decisions
 
 - [ ] `problems/LeadersInAnArray_7.java` - [Problem](https://www.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1)
-- [ ] `problems/ArrayLeaders_20.java` - [Problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/problem/leaders-in-an-array-1587115620)
-- [ ] `problems/MaximumDifferenceWithOrder_8.java` - [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTE2NQ%3D%3D)
+- [ ] `problems/MaximumDifferenceWithOrder_8.java` - [Problem](https://leetcode.com/problems/maximum-difference-between-increasing-elements/description/)
 - [ ] `problems/EquilibriumPoint_17.java` - [Problem](https://leetcode.com/problems/find-pivot-index/)
-- [ ] `problems/TrappingRainWater_11.java` - [Problem](https://www.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1)
+- [ ] `problems/TrappingRainWater_11.java` - [Problem](https://leetcode.com/problems/trapping-rain-water/)
 
 ---
 
@@ -39,7 +38,7 @@ This file groups array classes from `problems/` by revision concept with direct 
 
 - [ ] `problems/MaximumSumSubarray_12.java` - [Problem](https://leetcode.com/problems/maximum-subarray/description/)
 - [ ] `problems/MaximumCircularSumSubarray_14.java` - [Problem](https://www.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/1)
-- [ ] `problems/SubArrayWithGivenSum_19.java` - [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTQ2NTk%3D)
+- [ ] `problems/SubArrayWithGivenSum_19.java` - [Problem](https://www.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1)
 - [ ] `problems/LongestEventOddSubarray_13.java` - [Problem](https://www.geeksforgeeks.org/dsa/length-of-the-longest-alternating-even-odd-subarray/)
 - [ ] `problems/MaximumConsecutiveOnes_12.java` - [Problem](https://leetcode.com/problems/max-consecutive-ones/description/)
 - [ ] `problems/MinimumConsecutiveFlips_16.java` - [Video](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTU4Ng%3D%3D)

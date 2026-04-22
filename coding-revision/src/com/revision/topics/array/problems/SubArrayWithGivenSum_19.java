@@ -1,7 +1,41 @@
 package com.revision.topics.array.problems;
 
+import java.util.ArrayList;
+
 // VL - https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTQ2NTk%3D
+// PL - https://www.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1
 public class SubArrayWithGivenSum_19 {
+
+    // This problem is slight tweak of isSubarraySum() problem written below
+    private static ArrayList<Integer> subarraySum(int[] arr, int target) {
+        int i = 0;
+        int j = 0;
+
+        int sum = 0;
+
+        ArrayList<Integer> list = new ArrayList<>();
+
+        while (j < arr.length) {
+            sum += arr[j];
+
+            while (sum > target) {
+                sum -= arr[i];
+                i++;
+            }
+
+            if (sum == target) {
+                list.add(i+1);
+                list.add(j+1);
+                return list;
+            }
+            j++;
+        }
+
+        if (list.isEmpty()) {
+            list.add(-1);
+        }
+        return list;
+    }
 
     /**
      * Approach - sliding window technique
@@ -35,5 +69,9 @@ public class SubArrayWithGivenSum_19 {
     public static void main(String[] args) {
         System.out.println(isSubarraySum(new int[]{4, 8, 12, 5}, 17));
         System.out.println(isSubarraySum(new int[]{1, 4, 20, 3, 10, 5}, 33));
+
+        System.out.println(subarraySum(new int[]{4, 8, 12, 5}, 17));
+        System.out.println(subarraySum(new int[]{1, 4, 20, 3, 10, 5}, 33));
+        System.out.println(subarraySum(new int[]{26, 3, 28, 7}, 52));
     }
 }

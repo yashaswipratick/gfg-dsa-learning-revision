@@ -1,6 +1,7 @@
 package com.revision.topics.array.problems;
 
 // PL - https://www.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1
+// PL - https://leetcode.com/problems/trapping-rain-water/description/
 // VL - https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Arrays/video/MTE2OA%3D%3D
 public class TrappingRainWater_11 {
 
