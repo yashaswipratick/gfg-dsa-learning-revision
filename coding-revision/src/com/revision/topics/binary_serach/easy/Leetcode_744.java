@@ -38,6 +38,28 @@ public class Leetcode_744 {
         return -1;
     }
 
+    //optimised code
+
+    private static char nextGreatestLetterOptimised(char[] letters, char target) {
+        int start = 0;
+        int end = letters.length - 1;
+
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+
+            if (letters[mid] <= target) {
+                start = mid + 1;
+            } else {
+                end = mid - 1;
+            }
+        }
+
+        if (start == letters.length) {
+            return letters[0];
+        }
+        return letters[start];
+    }
+
     public static void main(String[] args) {
         System.out.println(nextGreatestLetter(new char[]{'c', 'f', 'j'}, 'j'));
         System.out.println(nextGreatestLetter(new char[]{'c', 'f', 'j'}, 'a'));

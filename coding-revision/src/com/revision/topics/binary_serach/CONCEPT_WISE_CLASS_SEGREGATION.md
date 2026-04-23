@@ -19,15 +19,15 @@ This file groups all binary search classes by core revision concept with direct 
 
 - [ ] `easy/Leetcode_704.java` - Binary Search - [Problem](https://leetcode.com/problems/binary-search/description/)
 - [ ] `easy/Leetcode_35.java` - Search Insert Position - [Problem](https://leetcode.com/problems/search-insert-position/description/)
-- [ ] `easy/Leetcode_744.java` - Find Smallest Letter Greater Than Target - [Problem](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
-- [ ] `easy/Leetcode_2089.java` - Find Target Indices After Sorting Array - [Problem](https://leetcode.com/problems/find-target-indices-after-sorting-array/description/)
+- [ X ] `easy/Leetcode_744.java` - Find Smallest Letter Greater Than Target - [Problem](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
+- [ ] `easy/Leetcode_2089.java(Not Binary Search Problem)` - Find Target Indices After Sorting Array - [Problem](https://leetcode.com/problems/find-target-indices-after-sorting-array/description/)
 
 ---
 
 # BS-2 · Find First / Last Occurrence (Boundary Problems)
 > Find the first position where a condition becomes true, or the last position where it's still true.
 
-- [ ] `medium/Leetcode_34.java` - Find First and Last Position of Element in Sorted Array - [Problem](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
+- [ X ] `medium/Leetcode_34.java` - Find First and Last Position of Element in Sorted Array - [Problem](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
 
 ---
 
@@ -36,20 +36,16 @@ This file groups all binary search classes by core revision concept with direct 
 
 - [ ] `medium/peak_element/Leetcode_162.java` - Find Peak Element - [Problem](https://leetcode.com/problems/find-peak-element/description)
 - [ ] `medium/peak_element/Leeetcode_852.java` - Peak Index in a Mountain Array - [Problem](https://leetcode.com/problems/peak-index-in-a-mountain-array/description)
-- [ ] `medium/peak_element/Leetcode_852.java` - Peak Index in a Mountain Array (alternate) - [Problem](https://leetcode.com/problems/peak-index-in-a-mountain-array)
 - [ ] `medium/peak_element/Leetcode_1300.java` - Sum of Mutated Array Closest to Target - [Problem](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/description/)
 
 ---
 
-# BS-4 · Rotated Sorted Array
+# BS-4 · Rotated Sorted Array - very important problems
 > Array is sorted but rotated at some pivot. Find the pivot, search in a rotated array, or handle duplicates.
 
-- [ ] `medium/rotated_sorted_array/Leetcode_33.java` - Search in Rotated Sorted Array - [Problem](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-- [ ] `medium/rotated_sorted_array/Leetcode_81.java` - Search in Rotated Sorted Array II (with duplicates) - [Problem](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description)
-- [ ] `medium/rotated_sorted_array/Leetcode_153.java` - Find Minimum in Rotated Sorted Array - [Problem](https://leetcode.com/problems/search-a-2d-matrix/description)
-- [ ] `medium/rotated_sorted_array/revision_multiple_times/Leetcode_33.java` - Search in Rotated Sorted Array (revision) - [Problem](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-- [ ] `medium/rotated_sorted_array/revision_multiple_times/Leetcode_81.java` - Search in Rotated Sorted Array II (revision) - [Problem](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description)
-- [ ] `medium/rotated_sorted_array/revision_multiple_times/Leetcode_153.java` - Find Minimum in Rotated Sorted Array (revision) - [Problem](https://leetcode.com/problems/search-a-2d-matrix/description)
+- [ X ] `medium/rotated_sorted_array/Leetcode_33.java` - Search in Rotated Sorted Array - [Problem](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- [ X ] `medium/rotated_sorted_array/Leetcode_81.java` - Search in Rotated Sorted Array II (with duplicates) - [Problem](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description)
+- [ ] `medium/rotated_sorted_array/Leetcode_153.java` - Find Minimum in Rotated Sorted Array - [https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
 
 ---
 
