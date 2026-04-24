@@ -5,22 +5,22 @@ public class Leetcode_81 {
     private static boolean search(int[] nums, int target) {
         int start = 0;
         int end = nums.length - 1;
+        int res = Integer.MAX_VALUE;
 
         while (start <= end) {
             int mid = start + (end - start) / 2;
 
             if (nums[mid] == target) {
                 return true;
-            } else if (nums[start] == nums[mid] && nums[mid] == nums[end]) { // skip the duplicate until this condition is meeting
+            } else if (nums[start] == nums[mid] && nums[mid] == nums[end]) {
                 start++;
                 end--;
                 continue;
             }
 
-            // left half sorted
             if (nums[start] <= nums[mid]) {
                 if (target >= nums[start] && target < nums[mid]) {
-                    end = mid -1;
+                    end = mid - 1;
                 } else {
                     start = mid + 1;
                 }

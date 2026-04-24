@@ -12,11 +12,9 @@ public class Leetcode_33 {
             if (nums[mid] == target) {
                 return mid;
             }
-
-            // left half sorted
             if (nums[start] <= nums[mid]) {
                 if (target >= nums[start] && target < nums[mid]) {
-                    end = mid -1;
+                    end = mid - 1;
                 } else {
                     start = mid + 1;
                 }
@@ -32,6 +30,8 @@ public class Leetcode_33 {
     }
 
     public static void main(String[] args) {
-
+        System.out.println(search(new int[]{4, 5, 6, 7, 0, 1, 2}, 0));
+        System.out.println(search(new int[]{4,5,6,7,0,1,2}, 3));
+        System.out.println(search(new int[]{1}, 0));
     }
 }

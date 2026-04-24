@@ -11,10 +11,10 @@ public class Leetcode_153 {
             int mid = start + (end - start) / 2;
 
             if (nums[start] <= nums[mid]) {
-                res = Math.min(nums[start], res);
+                res = Math.min(res, nums[start]);
                 start = mid + 1;
             } else {
-                res = Math.min(nums[mid], res);
+                res = Math.min(res, nums[mid]);
                 end = mid - 1;
             }
         }
